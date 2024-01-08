@@ -42,19 +42,27 @@ script with your actual Mailgun API details:
 
 #### Copy
 
-```python script.py copy --apiKey YOUR_API_KEY --sourceAccountUrl SOURCE_URL --destinationAccountUrl DESTINATION_URL```
+```bash
+python script.py copy --apiKey YOUR_API_KEY --sourceAccountUrl SOURCE_URL --destinationAccountUrl DESTINATION_URL
+```
 
 #### Delete All
 
-```python script.py deleteAll --apiKey YOUR_API_KEY --accountUrl ACCOUNT_URL```
+```bash 
+python3 script.py deleteAll --apiKey YOUR_API_KEY --accountUrl ACCOUNT_URL
+```
 
 #### Download
 
-```python script.py download --apiKey YOUR_API_KEY --accountUrl ACCOUNT_URL```
+```bash
+python3 script.py download --apiKey YOUR_API_KEY --accountUrl ACCOUNT_URL
+```
 
 #### Upload
 
-```python script.py upload --apiKey YOUR_API_KEY --accountUrl ACCOUNT_URL --filePath FILE_PATH```
+```bash
+python3 script.py upload --apiKey YOUR_API_KEY --accountUrl ACCOUNT_URL --filePath FILE_PATH
+```
 
 > Replace these `YOUR_API_KEY`, `SOURCE_URL`, `DESTINATION_URL`, `ACCOUNT_URL`, `FILE_PATH`   with your actual params
 > value.
